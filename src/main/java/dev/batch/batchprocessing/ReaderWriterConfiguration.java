@@ -55,7 +55,7 @@ public class ReaderWriterConfiguration {
   @Bean
   public JdbcBatchItemWriter<Person> writer(DataSource dataSource) {
     return new JdbcBatchItemWriterBuilder<Person>()
-      .sql("INSERT INTO people (first_name, last_name, age) VALUES (:name, :surName, :age)")
+      .sql("INSERT INTO people (first_name, last_name, age) VALUES (:name, :surname, :age)")
       .dataSource(dataSource)
       .beanMapped()
       .build();
