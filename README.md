@@ -1,6 +1,6 @@
 # Simple batch processing using Spring-Boot-Starter-Batch
 
-## For Spring-Boot-Start-Batch (v4.3.10) refer to https://docs.spring.io/spring-batch/docs/4.3.10/reference/html/index.html
+## For Spring-Boot-Starter-Batch (v4.3.10) refer to https://docs.spring.io/spring-batch/docs/4.3.10/reference/html/index.html
 
 ### Project artifacts and dependencies:
 - Java v11
